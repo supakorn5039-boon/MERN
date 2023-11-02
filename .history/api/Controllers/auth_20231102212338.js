@@ -5,7 +5,7 @@ const { token } = require("morgan");
 
 const { notifyline, getIPClient } = require("../Functions/Notify");
 
-const tokenLine = "{TOKEN LINe NOTIFY}";
+const tokenLine = "{GEN TOKEN To USE}";
 
 exports.register = async (req, res) => {
   try {

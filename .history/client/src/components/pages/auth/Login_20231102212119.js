@@ -212,7 +212,7 @@ export default function Login() {
               </Button>
 
               <FacebookLogin
-                appId="{FACEBOOK TOKEN}"
+                appId="275892892107952"
                 autoLoad={false}
                 fields="name,email,picture"
                 callback={responseFacebook}
